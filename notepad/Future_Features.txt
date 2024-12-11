@@ -1,0 +1,19 @@
+Generative AI ,
+
+Additional Features...
+
+1.Sentiment-Based Attendance: Add an optional feature where the system assesses students' emotional states based on facial expressions at check-in. For example, it could recognize if a student appears happy, stressed, or tired and keep track of this as additional data. Sentiment analysis could be achieved using a model trained on facial emotion datasets, such as FER+
+
+2.Attendance Pattern Generator: A generative model could analyze attendance patterns and provide insights or suggestions. For instance, it could generate a report showing a student's attendance habits over time, predicting future attendance trends based on historical data.
+
+3. Facial Expression Recognition for Engagement Detection
+Purpose: To detect students' emotions and assess engagement based on facial expressions.
+Models: Pretrained facial emotion recognition models like FER (Facial Expression Recognition) or custom-trained CNNs to classify expressions such as "focused," "bored," "confused," etc.
+Implementation: Use real-time video to detect facial expressions and alert the teacher if a significant portion of the class appears disengaged.
+
+4. Body Language and Posture Analysis
+Purpose: To detect non-verbal cues, such as students leaning away from their desks, looking down, or using phones.
+Models: OpenPose or MediaPipe for skeletal tracking and posture analysis, which can infer if students are facing the teacher or engaging with other activities.
+Implementation: These models can detect specific postures or movements that suggest students are inattentive, then signal to the teacher when inattention levels are high.
+
+5.
